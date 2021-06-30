@@ -5,6 +5,10 @@ import Componente from './Components/componente'
 import Propiedades from "./Components/Propiedades";
 import Estado from "./Components/Estado";
 import RenderizadoCondicional from "./Components/RenderizadoCondicional";
+import RenderizadoElementos from "./Components/RenderizadoElementos";
+import Eventos from "./Components/Eventos";
+import EventosAutoBinding from "./Components/EventosAutoBinding";
+import MasSobreEventos from "./Components/MasSobreEventos";
 
 function App() {
   return (
@@ -41,6 +45,18 @@ function App() {
       <br></br>
       <hr></hr>
       <RenderizadoCondicional></RenderizadoCondicional>
+      <br></br>
+      <hr></hr>    
+      <RenderizadoElementos></RenderizadoElementos>
+      <br></br>
+      <hr></hr>
+      <Eventos />
+      <br></br>
+      <hr></hr>
+      <EventosAutoBinding />
+      <br></br>
+      <hr></hr>
+      <MasSobreEventos />
       </section>
       </header>
     </div>
