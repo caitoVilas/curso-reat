@@ -9,6 +9,11 @@ import RenderizadoElementos from "./Components/RenderizadoElementos";
 import Eventos from "./Components/Eventos";
 import EventosAutoBinding from "./Components/EventosAutoBinding";
 import MasSobreEventos from "./Components/MasSobreEventos";
+import ComunicacionComponentes from "./Components/ComunicacionComponentes";
+import CicloVida from "./Components/CicloVida";
+import AjaxApis from "./Components/AjaxApis";
+import ContadorHooks from "./Components/ContadorHooks";
+import ScroolHooks from "./Components/ScroolHooks";
 
 function App() {
   return (
@@ -57,6 +62,23 @@ function App() {
       <br></br>
       <hr></hr>
       <MasSobreEventos />
+      <br></br>
+      <hr></hr>
+      <ComunicacionComponentes />
+      <br></br>
+      <hr></hr>
+      <CicloVida />
+      <br></br>
+      <hr></hr>
+      <AjaxApis />
+      <br></br>
+      <hr></hr>
+      <ContadorHooks />
+      <br></br>
+      <hr></hr>
+      <ScroolHooks />
+      <br></br>
+      <hr></hr>
       </section>
       </header>
     </div>
