@@ -3,7 +3,7 @@ import Reatc, {Component} from 'react';
 export default class CicloVida extends Component{
     constructor(props){
         super(props);
-        console.log(0,"El componente se incializa aun no esta en el DOM");
+        //console.log(0,"El componente se incializa aun no esta en el DOM");
         this.state = {
             fecha: new Date().toLocaleTimeString(),
             visible: false   
@@ -11,12 +11,12 @@ export default class CicloVida extends Component{
         this.temporizador = null; 
     }
     componentDidMount(){
-        console.log(1,"El componente ya se encuentra en el DOM");
+        //console.log(1,"El componente ya se encuentra en el DOM");
     }
     componentDidUpdate(prevProps, prevState){
-        console.log(2,"El estado o las props del componente han cambiado");
-        console.log(prevProps);
-        console.log(prevState);
+        //console.log(2,"El estado o las props del componente han cambiado");
+        //console.log(prevProps);
+        //console.log(prevState);
     }
 
     iniciar = (e) => {
@@ -39,7 +39,7 @@ export default class CicloVida extends Component{
         },1000);
     };
     render(){
-        console.log(4,"El componente se dibuja o redibuja");
+        //console.log(4,"El componente se dibuja o redibuja");
         return(
             <>
                 <h2>Ciclo de vida Componentes de clase</h2>
@@ -56,7 +56,7 @@ class Reloj extends Component{
         super(props);
     }
     componentWillUnmount(){
-        console.log(3,"El componente ha sido eliminado del DOM");
+        //console.log(3,"El componente ha sido eliminado del DOM");
     }
     render(){
         return(

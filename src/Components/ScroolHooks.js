@@ -4,12 +4,12 @@ export default function ScroolHooks(pops){
     const [scrollY, setScrollY] = useState(0);
 
     useEffect(() => {
-        console.log("moviendo scroll");
+        //console.log("moviendo scroll");
         const detectarScroll = () => setScrollY(window.pageYOffset);
         window.addEventListener('scroll', detectarScroll);
     },[scrollY]);
     useEffect(() => {
-        console.log("fase de montaje");
+        //console.log("fase de montaje");
     },[]);
     return(
         <>
